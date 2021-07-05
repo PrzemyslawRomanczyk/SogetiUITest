@@ -1,0 +1,16 @@
+{
+    "name": "test-challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "codeceptjs run --steps --verbose"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "codeceptjs": "^2.3.5",
+        "codeceptjs-assert": "0.0.5",
+        "puppeteer": "^2.0.0"
+    }
+}
